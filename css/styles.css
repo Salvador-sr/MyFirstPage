@@ -1,0 +1,110 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+hr{
+    color: #1C6DD0;
+}
+
+ul{
+    list-style: none;
+}
+ul li{
+    font-family: 'Source Sans Pro', sans-serif;
+    
+}
+
+h1, h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header{
+    background-color: #1C6DD0; 
+    color: white; 
+    padding: 1%; 
+    border-radius: 5px;
+    display: flex;
+}
+
+.image-profile{
+    width: 8%;
+    border: beige 3px solid;
+    
+}
+
+header .title{
+    margin-left: 2%;
+}
+
+header .title p{
+    
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.container-main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+.container-footer h2{
+    font: 40px;
+}
+.container-footer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container-footer a{
+    margin: 1%;
+}
+
+.container-skills{
+    width: 30%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.container-skills ul{
+   width: 30%;
+   margin: 0;
+   padding: 0;
+}
+
+.container-skills li{
+    padding-bottom: 5px;
+    font-size: 20px;
+}
+.bold{
+    font-weight: bold;
+}
+
+.container-experience, .container-formation{
+    width: 50%;
+    margin: auto;
+}
+
+
+.container-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1%;
+}
+
+.container-info h2{
+    width: 40%;
+}
+
+.container-info p{
+    padding: 2px;
+}
+
